@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D15A73F2-4E76-4356-8B00-1A0A92A6A4A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Ofimática_VB.Net.My.MyApplication</StartupObject>
+    <RootNamespace>Ofimática_VB.Net</RootNamespace>
+    <AssemblyName>Ofimática VB.Net</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ofimática VB.Net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ofimática VB.Net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actividades\BANCO.Designer.vb">
+      <DependentUpon>BANCO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\BANCO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Inversiones.Designer.vb">
+      <DependentUpon>Inversiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Inversiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\InversionesCode.Designer.vb">
+      <DependentUpon>InversionesCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\InversionesCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Nominas.Designer.vb">
+      <DependentUpon>Nominas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Nominas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\NominasCode.Designer.vb">
+      <DependentUpon>NominasCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\NominasCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Promedios.Designer.vb">
+      <DependentUpon>Promedios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Promedios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\PromediosCode.Designer.vb">
+      <DependentUpon>PromediosCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\PromediosCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Votos ADSI.Designer.vb">
+      <DependentUpon>Votos ADSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Votos ADSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Trabajos\VentaDVD.Designer.vb">
+      <DependentUpon>VentaDVD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trabajos\VentaDVD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trabajos\VentaDVDCode.Designer.vb">
+      <DependentUpon>VentaDVDCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trabajos\VentaDVDCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Actividades\BANCO.resx">
+      <DependentUpon>BANCO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Inversiones.resx">
+      <DependentUpon>Inversiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\InversionesCode.resx">
+      <DependentUpon>InversionesCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Nominas.resx">
+      <DependentUpon>Nominas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\NominasCode.resx">
+      <DependentUpon>NominasCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Promedios.resx">
+      <DependentUpon>Promedios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\PromediosCode.resx">
+      <DependentUpon>PromediosCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Votos ADSI.resx">
+      <DependentUpon>Votos ADSI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trabajos\VentaDVD.resx">
+      <DependentUpon>VentaDVD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trabajos\VentaDVDCode.resx">
+      <DependentUpon>VentaDVDCode.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

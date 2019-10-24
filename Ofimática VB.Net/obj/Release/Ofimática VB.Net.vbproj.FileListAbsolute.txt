@@ -1,0 +1,19 @@
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\bin\Release\Ofimática VB.Net.exe
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\bin\Release\Ofimática VB.Net.pdb
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\bin\Release\Ofimática VB.Net.xml
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática VB.Net.vbprojAssemblyReference.cache
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.Nominas.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.NominasCode.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.Promedios.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.PromediosCode.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.Inicio.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.Resources.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.VentaDVD.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.VentaDVDCode.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática VB.Net.vbproj.GenerateResource.cache
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática VB.Net.vbproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática VB.Net.exe
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática VB.Net.xml
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática VB.Net.pdb
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.Inversiones.resources
+C:\Users\Miguel\Desktop\Proyecto Ofimática\Ofimática VB.Net\Ofimática VB.Net\obj\Release\Ofimática_VB.Net.InversionesCode.resources
